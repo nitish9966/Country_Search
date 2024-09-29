@@ -26,7 +26,7 @@ const Dashboard = ({ handleLogout }) => {
     const languages = Object.values(country.languages).join(", ");
     const popupContent = `
       <div style="text-align: center">
-        <h3 style="font-weight: bold;">${country.name.common}</h3>
+        <h3 style="font-weight: bold;font-size:20px">${country.name.common}</h3>
         <p><strong>Capital:</strong> ${country.capital}</p>
         <p><strong>Population:</strong> ${country.population}</p>
         <p><strong>Region:</strong> ${country.region}</p>
